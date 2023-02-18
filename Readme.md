@@ -11,14 +11,51 @@ This repository is my work of whatever i have learned and make projects on. The 
 * The repo is updated on regular bases
 * Project recommendations Email- manasgpt3@gmail.com  
 
-### Getting Started:-
-1) Bio :-
-#step 1 - Create a virtual environment
-#step 2 - Active environment
-#setp 3 - install all packages from requirments.txt
+### Getting Started:-  
+For using a project follow Below Steps:  
+step 1 - Click on the porject folder
+
+step 2 - Create a virtual environment  
+
+step 3 - Active environment  
+
+step 4 - install all packages from requirments.txt  
+
+step 5 - run any program you like 
+
+```console
+python [PROGRAM_NAME].py
+```  
+
+
+1) Bio    
 
 ```console
 python -m venv bio
 .\bio\Scripts\activate
-pip install -r requirments.txt command
+pip install -r requirments.txt 
 ```
+
+2) Machine Learning  
+
+```console
+python -m venv ml
+.\ml\Scripts\activate
+pip install -r requirments.txt. 
+```
+
+3) Media Downlaod  
+
+```console
+python -m venv media
+.\media\Scripts\activate
+pip install -r requirements.txt 
+```  
+
+4) text_to_speech
+```console
+python -m venv speech
+.\speech\Scripts\activate
+pip install -r requirments.txt
+```   
+
