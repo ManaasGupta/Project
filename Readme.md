@@ -13,12 +13,12 @@ This repository is my work of whatever i have learned and make projects on. The 
 
 ### Getting Started:-
 1) Bio :-
+#step 1 - Create a virtual environment
+#step 2 - Active environment
+#setp 3 - install all packages from requirments.txt
 
 ```console
-#step 1 - Create a virtual environment
-        python -m venv bio
-#step 2 - Active environment
-        .\bio\Scripts\activate
-#setp 3 - install all packages from requirments.txt
-        pip install -r requirments.txt command
+python -m venv bio
+.\bio\Scripts\activate
+pip install -r requirments.txt command
 ```
