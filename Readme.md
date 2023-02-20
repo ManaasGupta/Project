@@ -13,7 +13,7 @@ This repository is my work of whatever i have learned and make projects on. The 
 
 ### Getting Started:-  
 For using a project follow Below Steps:  
-step 1 - Click on the porject folder
+step 1 - Click on the project folder
 
 step 2 - Create a virtual environment  
 
@@ -24,38 +24,56 @@ step 4 - install all packages from requirments.txt
 step 5 - run any program you like 
 
 ```console
+
 python [PROGRAM_NAME].py
+
 ```  
 
 
 1) Bio    
 
 ```console
+
 python -m venv bio
+
 .\bio\Scripts\activate
+
 pip install -r requirments.txt 
+
 ```
 
 2) Machine Learning  
 
 ```console
+
 python -m venv ml
+
 .\ml\Scripts\activate
+
 pip install -r requirments.txt. 
+
 ```
 
 3) Media Downlaod  
 
 ```console
+
 python -m venv media
+
 .\media\Scripts\activate
+
 pip install -r requirements.txt 
+
 ```  
 
 4) text_to_speech
 ```console
+
 python -m venv speech
+
 .\speech\Scripts\activate
+
 pip install -r requirments.txt
+
 ```   
 
