@@ -32,6 +32,8 @@ python [PROGRAM_NAME].py
 
 1) Bio    
 
+Click on Folder Bio  
+
 ```console
 
 python -m venv bio
@@ -43,6 +45,8 @@ pip install -r requirments.txt
 ```
 
 2) Machine Learning  
+
+Click on Folder Machine Learning  
 
 ```console
 
@@ -56,6 +60,8 @@ pip install -r requirments.txt.
 
 3) Media Downlaod  
 
+Click on Folder Media Downlaod  
+
 ```console
 
 python -m venv media
@@ -67,6 +73,9 @@ pip install -r requirements.txt
 ```  
 
 4) text_to_speech
+
+Click on Folder text_to_speech  
+
 ```console
 
 python -m venv speech
