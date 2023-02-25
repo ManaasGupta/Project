@@ -1,7 +1,7 @@
 from pytube import YouTube
 import os
 
-def download_video(link,dir='downloads'):
+def download_video(link,dir):
     os.chdir(dir)
     youtubeObject = YouTube(link)
     youtubeObject = youtubeObject.streams.get_highest_resolution()
