@@ -13,7 +13,7 @@ def s2t():
 
     # Convert speech to text
     try:
-        text = r.recognize_google(audio)
+        text = r.recognize_google(audio,language='hi-In')
         print("You said: {}".format(text))
     except sr.UnknownValueError:
         print("Oops! Unable to recognize speech.")
@@ -21,3 +21,6 @@ def s2t():
         print("Oops! Could not request results from Google Speech Recognition service; {0}".format(e))
     
     return text 
+
+if __name__=='__main__':
+    s2t()
