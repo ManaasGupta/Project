@@ -6,8 +6,7 @@ def s2t():
 
     # Use microphone as source
     with sr.Microphone() as source:
-        print("Please wait. Calibrating microphone...")  
-       # listen for 5 seconds and create the ambient noise energy level  
+        print("Please wait. Calibrating microphone...") 
         r.adjust_for_ambient_noise(source) 
         print("Say something...")
         audio = r.listen(source)
