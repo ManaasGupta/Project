@@ -1,14 +1,15 @@
 import smtplib
 from email.message import EmailMessage
+import os
 def email_alert(subject:str,body:str,to:str):
     msg=EmailMessage()
     msg.set_content(body)
     msg['subject']=subject
     msg['to']=to
     
-    user_email='exampleemail4use@gmail.com' # put your email here
+    user_email=os.environ.get('USER_EMAIL') # put your email here
     msg['from']=user_email
-    app_password='ioneoldqhgmwzibn' #put your APP Password 
+    app_password=os.environ.get('APP_PASS') #put your APP Password 
     
     server=smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()

@@ -1,13 +1,13 @@
 for twilio
 
-accountsid='AC838756d31591c9f50b0f67d388227839'
-authenticationtoken='1c52e92d8fa7d23bda3c611f15fb6ac1' 
+accountsid='AC25584c50020f4329f42955615cace920'
+authenticationtoken='3d1f46a0c955f25f76cabacd7a6e5445' 
 
 twilio number
-+16064024809
++15746269040
 
 related to two factor authentication
-14buHXKqbNko-P_un0fCoAbCbR6juE1_bcRo2_4-
+nzzAUXf2TUEdXA_elPOQXZUntENAjr9sgWZ82oRx
 
 
 Gmail app password
